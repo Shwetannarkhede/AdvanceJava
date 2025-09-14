@@ -13,11 +13,11 @@ public class EmployeeController {
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
-			System.out.println("\n===== Employee Records Manager =====");
-			System.out.println("[1] -> Add Employee");
-			System.out.println("[2] -> Update Employee");
-			System.out.println("[3] -> Delete Employee");
-			System.out.println("[4] -> View SEmployee");
+			System.out.println("\n===== Employee Records Management =====");
+			System.out.println("[1] -> Add Employee Data");
+			System.out.println("[2] -> Update Employee Data");
+			System.out.println("[3] -> Delete Employee Data");
+			System.out.println("[4] -> View Employee Data");
 			System.out.println("[5] -> Exit");
 			System.out.print("Enter choice: ");
 			int ch = sc.nextInt();
