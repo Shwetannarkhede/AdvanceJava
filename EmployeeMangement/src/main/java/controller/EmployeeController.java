@@ -1,6 +1,5 @@
 package controller;
 
-import dao.EmployeeDao;
 import service.EmployeeService;
 import java.util.Scanner;
 
