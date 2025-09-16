@@ -29,7 +29,9 @@ public class EmployeeDao {
 		stmt.setString(3, city);
 		stmt.setInt(4, salary);
 		stmt.executeUpdate();
+		 System.out.println(" Empolyee Data updated successfully.");
 		c.close();
+		
 	}
 
 	// UPDATE DATA
